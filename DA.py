@@ -1,4 +1,5 @@
 import discord
+import os
 
 client = discord.Client()
 
@@ -19,5 +20,7 @@ async def on_message(message):
 
             await message.channel.send(embed=embed)
 
-
+        
+        
+access_token
 client.run('NTg0NTg4NTI2NzY3NTcwOTY0.XPistQ.G63T4rJgsA0zi1pbxLzhUe2n9i4')
